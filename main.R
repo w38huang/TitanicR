@@ -7,7 +7,7 @@ library(RColorBrewer)
 library(rattle)
 
 #test for hello
-print("hello from R.")
+print("hello from R 2.")
 
 createSubmissionFile <- function(train, test, predictions, model) {
   
