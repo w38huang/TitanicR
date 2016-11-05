@@ -6,6 +6,9 @@ library(ggplot2)
 library(RColorBrewer)
 library(rattle)
 
+#test for hello
+print("hello from R.")
+
 createSubmissionFile <- function(train, test, predictions, model) {
   
   SubmissionFileName <- paste('./output/Titanic Submission ', gsub('[[:punct:]]', '-', Sys.time()), '.csv', sep='')
