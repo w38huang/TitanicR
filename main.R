@@ -9,6 +9,8 @@ library(rattle)
 #test for hello
 print("hello from R 3.")
 
+print("Hello from xiaohuanghuang")
+
 createSubmissionFile <- function(train, test, predictions, model) {
   
   SubmissionFileName <- paste('./output/Titanic Submission ', gsub('[[:punct:]]', '-', Sys.time()), '.csv', sep='')
